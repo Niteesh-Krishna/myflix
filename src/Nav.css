@@ -1,0 +1,27 @@
+.dashboard {
+  background-color: #111;
+  min-height: 100%;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 90px;
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_black {
+  background-color: black;
+}
+
+.nav_logo {
+  position: fixed;
+  margin-top: -14px;
+  left: 10px;
+  width: 30px;
+  object-fit: contain;
+}

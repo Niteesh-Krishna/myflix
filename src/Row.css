@@ -1,0 +1,71 @@
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row_poster {
+  object-fit: contain;
+  width: 55%;
+  max-height: 350px;
+  margin-right: 20px;
+  min-width: 200px;
+  transition: transform 450ms;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_title {
+  padding-bottom: 5px;
+  color: white;
+}
+
+.listing_container {
+  margin-top: 55px;
+  margin-left: 30px;
+}
+.row {
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.movieName {
+  color: white;
+}
+
+.rating.ant-rate {
+  size: 10px;
+}
+
+.row_posters_genre {
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 90%;
+  height: 100px;
+}
+
+.rating.ant-rate {
+  size: 5px;
+  margin-right: 5px;
+}
+
+.movieData {
+  font-size: 12px;
+  margin-left: 0px;
+}
+
+.moviePlaceholder {
+  color: white;
+  padding-top: 100px;
+  padding-left: 420px;
+  font-size: 40px;
+}
