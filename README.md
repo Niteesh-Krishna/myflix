@@ -20,6 +20,7 @@ Besides the default installation with create-react-app,other 3rd party libraries
 -> reactstrap
 
 # Features
+
 -> Authentication of Subscribers and Admin
 -> Admin only access page to upload content
 -> Content filtering with Genre, Language
