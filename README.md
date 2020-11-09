@@ -4,7 +4,7 @@ Inspired from Netflix, Myflix is an completely offline-first web application, de
 
 # Test yourself:
 Steps:
-* git clone 
+* git clone https://github.com/Niteesh-Krishna/myflix.git
 * npm install or yarn
 * npm run start or yarn start
 
